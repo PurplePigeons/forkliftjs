@@ -14,22 +14,3 @@ Run this in a separate terminal instance or as a background process
 ```Shell
 sudo mongod
 ```
-
-# Install dependencies
-## Client App
-Go to the client folder, install dependencies, and build files for serving
-
-```Shell
-cd keystone_client_boilerplate/client
-yarn
-yarn build
-```
-
-## Keystone/Backend
-Go back one level to the main project folder, install dependencies, and run Node/Express server
-
-```Shell
-cd .. (if still in /keystone_client_boilerplate)
-yarn
-yarn start
-```
