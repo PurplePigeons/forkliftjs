@@ -1,0 +1,18 @@
+version: 2
+jobs:
+  build:
+    docker:
+      -image: node:8.0
+    steps:
+      -run:
+         name: installing
+         command: |
+           echo Installing Dependencies
+           yarn
+           cd client
+           yarn
+      -run:
+         name: Run Test Suite
+         command: |
+           yarn test
+
