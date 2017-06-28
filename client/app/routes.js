@@ -28,12 +28,12 @@ export default function createRoutes(store) {
 
         const renderRoute = loadModule(cb);
 
-        importModules.then(([reducer, component]) => {
-          injectReducer('home', reducer.default);
-          renderRoute(component);
-        });
-
-        importModules.catch(errorLoading);
+        importModules
+          .then(([reducer, component]) => {
+            injectReducer('home', reducer.default);
+            renderRoute(component);
+          })
+          .catch(errorLoading);
       },
       childRoutes: [
         {
@@ -54,12 +54,12 @@ export default function createRoutes(store) {
 
         const renderRoute = loadModule(cb);
 
-        importModules.then(([reducer, component]) => {
-          injectReducer('home', reducer.default);
-          renderRoute(component);
-        });
-
-        importModules.catch(errorLoading);
+        importModules
+          .then(([reducer, component]) => {
+            injectReducer('home', reducer.default);
+            renderRoute(component);
+          })
+          .catch(errorLoading);
       },
     },
     {
@@ -73,12 +73,12 @@ export default function createRoutes(store) {
 
         const renderRoute = loadModule(cb);
 
-        importModules.then(([reducer, component]) => {
-          injectReducer('aboutPage', reducer.default);
-          renderRoute(component);
-        });
-
-        importModules.catch(errorLoading);
+        importModules
+          .then(([reducer, component]) => {
+            injectReducer('aboutPage', reducer.default);
+            renderRoute(component);
+          })
+          .catch(errorLoading);
       },
     },
     {
@@ -92,12 +92,12 @@ export default function createRoutes(store) {
 
         const renderRoute = loadModule(cb);
 
-        importModules.then(([reducer, component]) => {
-          injectReducer('store', reducer.default);
-          renderRoute(component);
-        });
-
-        importModules.catch(errorLoading);
+        importModules
+          .then(([reducer, component]) => {
+            injectReducer('store', reducer.default);
+            renderRoute(component);
+          })
+          .catch(errorLoading);
       },
     },
     {
