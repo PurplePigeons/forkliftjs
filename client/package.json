@@ -223,7 +223,7 @@
     "invariant": "2.2.2",
     "ip": "1.1.4",
     "lodash": "4.17.2",
-    "minimist": "1.2.0",
+    "minimist": "1.2.2",
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
     "react-addons-css-transition-group": "^15.4.2",
