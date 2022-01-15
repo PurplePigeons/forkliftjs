@@ -298,7 +298,7 @@
     "redux-logger": "^2.8.1",
     "rimraf": "2.5.4",
     "sass-loader": "^6.0.2",
-    "shelljs": "0.7.5",
+    "shelljs": "0.8.5",
     "sinon": "2.0.0-pre",
     "style-loader": "github:stern-shawn/style-loader",
     "url-loader": "0.5.7",
